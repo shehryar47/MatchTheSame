@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cards{
+    /* background-color: green; */
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid black;
+}
